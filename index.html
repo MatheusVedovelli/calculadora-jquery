@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <h1 class="col-md-12 text-center">Calculadora</h1>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <input type="text" placeholder="Digite o calculo" value="" disabled id="display">
+                    <div class="row text-center">
+                        <div class="col-md-12" style="padding-top:10px;">
+                            <input class="btn btn-primary special" type="button" id="backspace" value="<--">
+                            <input class="btn btn-primary" type="button" id="clear" value="C">
+                            <input class="btn btn-primary" type="button" id="equal" value="=">
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-12" style="padding-top:3px;">
+                            <input class="btn btn-secondary" type="button" id="btn7" value="7">
+                            <input class="btn btn-secondary" type="button" id="btn8" value="8">
+                            <input class="btn btn-secondary" type="button" id="btn9" value="9">
+                            <input class="btn btn-secondary" type="button" id="add" value="+">
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-12" style="padding-top:3px;">
+                            <input class="btn btn-secondary" type="button" id="btn4" value="4">
+                            <input class="btn btn-secondary" type="button" id="btn5" value="5">
+                            <input class="btn btn-secondary" type="button" id="btn6" value="6">
+                            <input class="btn btn-secondary" type="button" id="sub" value="-">
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-12" style="padding-top:3px;">
+                            <input class="btn btn-secondary" type="button" id="btn1" value="1">
+                            <input class="btn btn-secondary" type="button" id="btn2" value="2">
+                            <input class="btn btn-secondary" type="button" id="btn3" value="3">
+                            <input class="btn btn-secondary" type="button" id="mult" value="*">
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-12" style="padding-top:3px;">
+                            <input class="btn btn-secondary special" type="button" id="btn0" value="0">
+                            <input class="btn btn-secondary" type="button" id="pow" value="x²">
+                            <input class="btn btn-secondary" type="button" id="div" value="/">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
