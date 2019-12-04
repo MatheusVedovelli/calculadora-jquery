@@ -3,10 +3,7 @@
         <title>Calculadora</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <script
-        src="https://code.jquery.com/jquery-3.4.1.js"
-        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
         <script src="js/script.js"></script>
     </head>
     <body>
@@ -16,12 +13,12 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-12">
-                    <input type="text" placeholder="Digite o calculo" value="" disabled id="display">
+                    <input type="text" value="" disabled id="display">
                     <div class="row text-center">
                         <div class="col-md-12" style="padding-top:10px;">
-                            <input class="btn btn-primary special" type="button" id="backspace" value="<--">
                             <input class="btn btn-primary" type="button" id="clear" value="C">
                             <input class="btn btn-primary" type="button" id="equal" value="=">
+                            <input class="btn btn-primary special" type="button" id="backspace" value="<--">
                         </div>
                     </div>
                     <div class="row text-center">
@@ -50,7 +47,8 @@
                     </div>
                     <div class="row text-center">
                         <div class="col-md-12" style="padding-top:3px;">
-                            <input class="btn btn-secondary special" type="button" id="btn0" value="0">
+                            <input class="btn btn-secondary" type="button" id="coma" value=",">
+                            <input class="btn btn-secondary" type="button" id="btn0" value="0">
                             <input class="btn btn-secondary" type="button" id="pow" value="x²">
                             <input class="btn btn-secondary" type="button" id="div" value="/">
                         </div>
